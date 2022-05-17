@@ -4,7 +4,99 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign-Up Form</title>
   </head>
-  <body></body>
+  <body>
+    <div class="flex-container">
+      <div class="side-body">
+        <div class="logo-background">
+          <img class="logo" src="logos/odin-lined.png" />
+          <div class="logoName">ODIN</div>
+        </div>
+        <img class="plant-pic" src="images/plant-backgroud-pic.avif" />
+        <div class="credit">Photo by Hailie West on Uplash</div>
+      </div>
+
+      <div class="main-body">
+        <div class="top">
+          <p class="paragraph">
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+
+        <div class="middle">
+          <p class="do-this">Let's do this!</p>
+
+          <div class="middle-div">
+            <div class="left-column">
+              <div class="first-name">
+                <div class="input-title">FIRST NAME</div>
+                <input type="email" id="user_email" name="email" />
+              </div>
+
+              <div class="email">
+                <div class="input-title">EMAIL</div>
+                <input
+                  type="email"
+                  id="user_email"
+                  name="email"
+                  placeholder="you@example.com"
+                />
+              </div>
+
+              <div class="password">
+                <div class="input-title">PASSWORD</div>
+                <input
+                  class="input-password"
+                  type="email"
+                  id="user_email"
+                  name="email"
+                />
+              </div>
+              <div class="no-match">*Passwords do not match</div>
+            </div>
+
+            <div class="right-column">
+              <div class="first-name">
+                <div class="input-title">LAST NAME</div>
+                <input type="email" id="user_email" name="email" />
+              </div>
+
+              <div class="phone-number">
+                <div class="input-title">PHONE NUMBER</div>
+                <input
+                  type="email"
+                  id="user_email"
+                  name="email"
+                  placeholder="xxx-xxx-xxxx"
+                />
+              </div>
+
+              <div class="confirmation">
+                <div class="input-title">CONFIRM PASSWORD</div>
+                <input
+                  class="input-password"
+                  type="email"
+                  id="user_email"
+                  name="email"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-div">
+          <button class="create-account">Create Account</button>
+          <p class="log-in">
+            Already have an account? <span class="login-color">Log in.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
 </html>
