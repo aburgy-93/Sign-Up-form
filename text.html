@@ -31,68 +31,71 @@
         <div class="middle">
           <p class="do-this">Let's do this!</p>
 
-          <div class="middle-div">
-            <div class="left-column">
-              <div class="first-name">
-                <div class="input-title">FIRST NAME</div>
-                <input type="email" id="user_email" name="email" />
+          <form>
+            <div class="middle-div">
+              <div class="left-column">
+                <div class="first-name">
+                  <div class="input-firstName">FIRST NAME</div>
+                  <input type="name" id="user_name" name="first_name" />
+                </div>
+
+                <div class="email">
+                  <div class="input-title">EMAIL</div>
+                  <input
+                    type="email"
+                    id="user_email"
+                    name="email"
+                    placeholder="you@example.com"
+                  />
+                </div>
+
+                <div class="password">
+                  <div class="input-enterPassword">PASSWORD</div>
+                  <input
+                    class="enterPassword"
+                    type="password"
+                    id="user_password"
+                    name="password"
+                  />
+                </div>
+                <div class="no-match">*Passwords do not match</div>
               </div>
 
-              <div class="email">
-                <div class="input-title">EMAIL</div>
-                <input
-                  type="email"
-                  id="user_email"
-                  name="email"
-                  placeholder="you@example.com"
-                />
-              </div>
+              <div class="right-column">
+                <div class="first-name">
+                  <div class="input-title">LAST NAME</div>
+                  <input type="email" id="user_email" name="email" />
+                </div>
 
-              <div class="password">
-                <div class="input-title">PASSWORD</div>
-                <input
-                  class="input-password"
-                  type="email"
-                  id="user_email"
-                  name="email"
-                />
+                <div class="phone-number">
+                  <div class="input-title">PHONE NUMBER</div>
+                  <input
+                    type="email"
+                    id="user_email"
+                    name="email"
+                    placeholder="xxx-xxx-xxxx"
+                  />
+                </div>
+
+                <div class="confirmation">
+                  <div class="input-confirmPassword">CONFIRM PASSWORD</div>
+                  <input
+                    class="confirmPassword"
+                    type="password"
+                    id="user_password"
+                    name="password"
+                  />
+                </div>
               </div>
-              <div class="no-match">*Passwords do not match</div>
             </div>
-
-            <div class="right-column">
-              <div class="first-name">
-                <div class="input-title">LAST NAME</div>
-                <input type="email" id="user_email" name="email" />
-              </div>
-
-              <div class="phone-number">
-                <div class="input-title">PHONE NUMBER</div>
-                <input
-                  type="email"
-                  id="user_email"
-                  name="email"
-                  placeholder="xxx-xxx-xxxx"
-                />
-              </div>
-
-              <div class="confirmation">
-                <div class="input-title">CONFIRM PASSWORD</div>
-                <input
-                  class="input-password"
-                  type="email"
-                  id="user_email"
-                  name="email"
-                />
-              </div>
-            </div>
-          </div>
+          </form>
         </div>
 
         <div class="bottom-div">
           <button class="create-account">Create Account</button>
           <p class="log-in">
-            Already have an account? <span class="login-color">Log in.</span>
+            Already have an account?
+            <a href="google.com" class="login-color">Log in.</a>
           </p>
         </div>
       </div>

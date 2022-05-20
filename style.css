@@ -30,12 +30,10 @@ p {
   flex: 2;
   /* height: 100vh; */
   background-color: rgb(248, 248, 248);
-
-  z-index: 1;
 }
 
-.plant-pic {
-}
+/* .plant-pic {
+} */
 
 .logo-background {
   display: flex;
@@ -91,6 +89,8 @@ p {
   box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.5);
 
   height: 270px;
+  position: relative;
+  background-color: white;
 }
 
 .do-this {
@@ -99,6 +99,7 @@ p {
 .middle-div {
   display: flex;
   align-items: center;
+  background-color: white;
 }
 
 .left-column {
@@ -130,12 +131,8 @@ p {
 }
 
 .bottom-div {
-  /* background-color: rgb(248, 248, 248); */
-
+  background-color: rgb(248, 248, 248);
   padding: 30px;
-
-  position: relative;
-  /* z-index: 1; */
 }
 
 .create-account {
@@ -155,11 +152,9 @@ p {
   font-size: 17px;
   margin-top: 30px;
   margin-left: 0;
-
-  z-index: 5;
 }
 
-.login-color {
+a {
   color: #596d48;
 }
 
@@ -170,7 +165,7 @@ input {
   height: 20px;
 }
 
-input:invalid {
+input-password:invalid {
   border-color: red;
 }
 
@@ -194,11 +189,20 @@ input:focus {
   padding-bottom: 3px;
 }
 
-.input-password {
-  border: 1px solid red;
+.input-firstName,
+.input-enterPassword,
+.input-confirmPassword {
+  font-size: 11px;
+  font-weight: bold;
+  padding-bottom: 3px;
 }
 
 .no-match {
-  color: red;
+  color: white;
   font-size: 12px;
+}
+
+button:hover {
+  background-color: #4c5e3c;
+  cursor: pointer;
 }
